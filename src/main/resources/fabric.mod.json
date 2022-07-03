@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "shulker",
+  "version": "${version}",
+
+  "name": "shulker",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Tec_BoyJ"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.Tec_BoyJ.shulker.shulker"
+    ],
+    "Client": [
+      "net.Tec_BoyJ.shulker.shulkerClient"
+    ]
+  },
+  "mixins": [
+    "shulker.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
