@@ -1,0 +1,6 @@
+{
+  "parrent": "item/handheld",
+  "textures": {
+    "layer0": "shulker:item/raw_shulker"
+  }
+}
